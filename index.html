@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <header>
+    <nav class="header__menu">
+      <img class="logo" src="images/logo.svg" alt="Blogr logo">
+      <img id="menuHamburger" class="menu__hamburger menu--hamburger" src="images/icon-hamburger.svg" alt="#">
+      <img id="menuClose" class="menu__hamburger menu--close" src="images/icon-close.svg" alt="#">
+      
+        <div class="header__menu--product">
+          <button class="menu--button" id="Product">Product
+            <img class="menu--arrow"  src="images/icon-arrow-light.svg" alt="#">
+          </button>
+            <ul class="header__menu--list" id="menuProduct">
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Marketplace</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Integrations</a></li>
+            </ul>
+        </div>
+        <div class="header__menu--company">
+          <button class="menu--button" id="Company">Company
+            <img class="menu--arrow" src="images/icon-arrow-light.svg" alt="#">
+          </button>
+          <ul class="header__menu--list" id="menuCompany">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="header__menu--connect">
+          <button class="menu--button" id="Connect">Connect
+            <img class="menu--arrow" src="images/icon-arrow-light.svg" alt="#">
+          </button>
+          <ul class="header__menu--list" id="menuConnect">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      
+        <div class="header__menu--login">
+          <button class="menu__login login">Login</button>
+          <button class="menu__login signup">Sign Up</button>
+        </div>
+    </nav>
+    <section class="header__section">
+      <h1 class="header__section--title">
+        A modern publishing platform
+      </h1>
+      <p class="header__section--text">Grow your audience and build your online brand</p>
+      <div class="section__button">
+        <button class="section__button--start">Start for Free</button>
+      <button class="section__button--learn">Learn More</button>
+      </div>
+    </section>
+  </header>
+  
+  <main>
+    <h2>Designed for the future</h2>
+    <section class="one">
+      <section class="articles__one">
+        <artcile class="section__one">
+          <h3>Introducing an extensible editor</h3>
+          <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
+        </artcile>
+        <article class="section__one">
+          <h3>Robust content management</h3>
+          <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+        </article>
+      </section>
+      <img class="section__img--editor" src="images/illustration-editor-desktop.svg" alt="">
+    </section>
+  
+    <section class="two">
+      <img class="section__img--phone" src="images/illustration-phones.svg" alt="">
+      <article class="section__two">
+        <h2>State of the Art Infrastructure</h2>
+        <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+      </article>
+
+    </section>
+  
+    <section class="three">
+      <img class="section__img--laptot" src="images/illustration-laptop-desktop.svg" alt="">
+      <section class="articles__three">
+        <article class="section__three">
+          <h3>Free, open, simple</h3>
+          <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+        </article>
+        <article class="section__three">
+          <h3>Powerful tooling</h3>
+          <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, butcapable of producing even the most complicated sites.</p>
+        </article>
+      </section>
+    
+    </section>
+  </main>
+  
+  <footer>
+    <img class="logo" src="images/logo.svg" alt="Blogr logo">
+    <section class="footer__product">
+      <h4>Product</h4>
+      <ul class="footer__menu--list">
+        <li><a href="#">Overview</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Marketplace</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Integrations</a></li>
+      </ul>
+    </section>
+
+    <section class="footer__company">
+      <h4>Company</h4>
+      <ul class="footer__menu--list">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </section>
+
+    <section class="footer__connect">
+      <h4>Connect</h4>
+      <ul class="footer__menu--list">
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Newsletter</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </section>
+  </footer>
+  <script src="js/index.js"></script>
+</body>
+</html>
